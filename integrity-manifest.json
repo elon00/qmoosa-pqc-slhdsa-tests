@@ -1,0 +1,30 @@
+{
+  "mission": "QMOOSA-PQC-SLHDSA-01",
+  "generatedAt": "2026-10-19T02:45:00Z",
+  "packages": [
+    {
+      "name": "@qmoosa/pqc-slhdsa-protocol",
+      "version": "1.0.0",
+      "repository": "elon00/qmoosa-pqc-slhdsa-protocol",
+      "sourceCommit": "75784c7a219acce053b00d4e0d483182573af374",
+      "archivePath": "packages/qmoosa-pqc-slhdsa-protocol-1.0.0.tgz",
+      "sha256": "ec504f59d6dfb7f96bd8522fcac0668fda900b9be67cc88ea07e6e161ceade7a"
+    },
+    {
+      "name": "@qmoosa/pqc-slhdsa-engine",
+      "version": "1.0.0",
+      "repository": "elon00/qmoosa-pqc-slhdsa-engine",
+      "sourceCommit": "41f8afa3a32af2a03e004c340e12ed77085488f5",
+      "archivePath": "packages/qmoosa-pqc-slhdsa-engine-1.0.0.tgz",
+      "sha256": "ad0c746f321a31d000047d3a5c4e125bcdc667809992095d228907ec4371e4be"
+    },
+    {
+      "name": "@qmoosa/pqc-slhdsa-sdk",
+      "version": "1.0.0",
+      "repository": "elon00/qmoosa-pqc-slhdsa-sdk",
+      "sourceCommit": "0b7aa112881c83c68b1b0a80303a35d17894facd",
+      "archivePath": "packages/qmoosa-pqc-slhdsa-sdk-1.0.0.tgz",
+      "sha256": "4783ccf3b0dfe36846dd4f3bdc3ea5fc85e1d5e406247357ff94249725adc162"
+    }
+  ]
+}
