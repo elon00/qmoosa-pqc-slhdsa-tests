@@ -11,26 +11,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout tests repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           path: qmoosa-pqc-slhdsa-tests
 
       - name: Checkout protocol repository (Pinned Commit)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: elon00/qmoosa-pqc-slhdsa-protocol
           ref: 75784c7a219acce053b00d4e0d483182573af374
           path: qmoosa-pqc-slhdsa-protocol
 
       - name: Checkout engine repository (Pinned Commit)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: elon00/qmoosa-pqc-slhdsa-engine
           ref: 41f8afa3a32af2a03e004c340e12ed77085488f5
           path: qmoosa-pqc-slhdsa-engine
 
       - name: Checkout sdk repository (Pinned Commit)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: elon00/qmoosa-pqc-slhdsa-sdk
           ref: 0b7aa112881c83c68b1b0a80303a35d17894facd
